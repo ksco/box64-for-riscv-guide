@@ -1,46 +1,20 @@
 ---
 sidebar_position: 1
 ---
-# Tutorial Intro
+# Introduction to Running Programs on RISC-V with Box64
 
-Let's discover **Docusaurus in less than 100 minutes**.
+Welcome to this series of guides designed to help you learn how to use Box64 to run various programs on the RISC-V architecture. RISC-V, as an open-source instruction set architecture, is rapidly developing, and Box64 is a powerful tool that allows you to run x86_64 applications compatibly in a RISC-V environment. This series will gradually introduce installation and configuration, common problem-solving, and tips for optimizing performance, helping you seamlessly run applications on RISC-V.
 
-## Getting Started
+## Introduction
 
-Get started by **creating a new site**.
+This guide is aimed at developers and tech enthusiasts, providing detailed steps and practical advice to help you make full use of Box64's features and explore the potential of the RISC-V platform. Whether you are new to RISC-V or looking to integrate Box64 into your existing projects, the content of this series will provide you with valuable references and support.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## Objectives
 
-### What you'll need
+* Understand the basic concepts of Box64 and RISC-V
+* Master the methods of installing and configuring Box64
+* Learn to run and debug x86_64 programs in a RISC-V environment
+* Explore performance optimization and solutions to common problems
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+Let's embark on this technical journey and explore the infinite possibilities of Box64 on RISC-V!
 
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
