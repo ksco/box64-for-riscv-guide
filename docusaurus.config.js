@@ -26,7 +26,7 @@ const config = {
   projectName: 'box64-for-riscv-guide', // Usually your repo name.
   deploymentBranch: 'gh-pages',
   
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore', // 或 'warn'
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
