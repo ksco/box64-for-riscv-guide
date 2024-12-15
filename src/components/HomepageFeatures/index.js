@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Easy to Use',
-    Svg: require('@site/static/img/Box64Logo.svg').default,
+    Svg: () => null,
     description: (
       <>
         Box64 lets you run x86_64 Linux programs (such as games) on non-x86 Linux systems, like ARM, RiSC-V or LoongArch (the host system needs to be 64bits little-endian).
