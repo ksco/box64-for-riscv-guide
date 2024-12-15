@@ -1,28 +1,34 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 
+/** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Box64 for RISC-V Guide',
+  tagline: 'Everything you need to know about Box64 for RISC-V',
   favicon: 'img/favicon.ico',
-  url: 'https://github.com',
-  baseUrl: '/box64-for-riscv-guide/',
-  organizationName: 'TraceRecursion',
+
+  url: 'https://ksco.cc/',
+  baseUrl: 'box64-for-riscv-guide/',
+
+  organizationName: 'ksco',
   projectName: 'box64-for-riscv-guide',
-  deploymentBranch: 'gh-pages',
-  onBrokenLinks: 'ignore',
+
+  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
   },
+
   presets: [
     [
       'classic',
+      /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          routeBasePath: '/',
           sidebarPath: './sidebars.js',
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/ksco/box64-for-riscv-guide',
         },
         blog: false,
         theme: {
@@ -31,10 +37,19 @@ const config = {
       }),
     ],
   ],
-  themeConfig: ({
+
+  themeConfig:
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    ({
       navbar: {
         title: 'Box64 for RISC-V Guide',
         items: [
+          {
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            label: 'Docs',
+          },
           {
             href: 'https://github.com/ksco/box64-for-riscv-guide',
             label: 'GitHub',
@@ -44,7 +59,8 @@ const config = {
       },
       footer: {
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()}`,
+        links: [],
+        copyright: `Copyright © ${new Date().getFullYear()}.`,
       },
       prism: {
         theme: prismThemes.github,

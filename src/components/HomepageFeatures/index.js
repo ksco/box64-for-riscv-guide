@@ -1,22 +1,34 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
+import Link from '@docusaurus/Link';
 import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    Svg: () => null,
+    title: 'Getting Started',
+    link: 'docs/getting-started',
+    linktext: 'Check Now',
+    description: (
+      <>
+        Learn how to get started with Box64 for RISC-V.
+      </>
+    ),
   },
 ];
 
-function Feature({Svg}) {
+function Feature({title, link, linktext, description}) {
   return (
-    <div className={clsx('col col--12')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
+    <div className={clsx('col')}>
       <div className="text--center padding-horiz--md">
-        <Heading as="h3"></Heading>
-        <p></p>
+        <Heading as="h3">{title}</Heading>
+        <p>{description}</p>
+        <div className={styles.buttons}>
+          <Link
+            className="button button--secondary button--lg"
+            to={link}>
+            {linktext}
+          </Link>
+        </div>
       </div>
     </div>
   );
