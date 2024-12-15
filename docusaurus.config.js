@@ -36,7 +36,7 @@ const config = {
         title: 'Box64 for RISC-V Guide',
         items: [
           {
-            href: 'https://github.com/ptitSeb/box64',
+            href: 'https://github.com/ksco/box64-for-riscv-guide',
             label: 'GitHub',
             position: 'right',
           },
