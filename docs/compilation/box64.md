@@ -1,27 +1,23 @@
-# Installing Box64
+# Install Box64
 
-You can find the general method for compiling and installing on RV64 systems in the official [Box64 compile/install documentation](https://github.com/ptitSeb/box64/blob/main/docs/COMPILE.md):
+You can find the general steps for compiling and installing on RV64 systems in the official [Box64 compile/install documentation](https://github.com/ptitSeb/box64/blob/main/docs/COMPILE.md):
 
 ```shell
 git clone https://github.com/ptitSeb/box64
 cd box64
 mkdir build; cd build; cmake .. -D RV64=1 -D CMAKE_BUILD_TYPE=RelWithDebInfo
-make -j8
+make -j$(nproc)
 sudo make install
 sudo systemctl restart systemd-binfmt
 ```
 
-Here, both the `SPACEMIT K1` and `SPACEMIT M1` SoCs have 8 cores, so 8 parallel jobs are used during the build process to speed up compilation.
-
-The author's `SPACEMIT M1` completed `make -j8` in 55 minutes. During this time, you can do other tasks.
-
-After installation, execute the following in the terminal:
+After installation, run the following command in the terminal:
 
 ```shell
 box64 -v
 ```
 
-If you receive the following output, the installation is complete:
+If you see the following output, the installation was successful:
 
 ```shell
 Dynarec for RISC-V With extension: I M A F D C Zba Zbb Zbc Zbs Vector (vlen: 256) PageSize:4096 Running on Unknown CPU with 8 cores
