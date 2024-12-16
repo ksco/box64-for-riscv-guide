@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Compile gl4es
 
 The official [compilation guide](https://github.com/ptitSeb/gl4es/blob/master/COMPILE.md) for gl4es provides the general steps for compiling and installing on an RV64 system:

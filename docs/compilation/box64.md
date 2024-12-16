@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Install Box64
 
 You can find the general steps for compiling and installing on RV64 systems in the official [Box64 compile/install documentation](https://github.com/ptitSeb/box64/blob/main/docs/COMPILE.md):
@@ -17,7 +21,7 @@ After installation, run the following command in the terminal:
 box64 -v
 ```
 
-If you see the following output, the installation was successful:
+If you see the similar output, the installation was successful:
 
 ```shell
 Dynarec for RISC-V With extension: I M A F D C Zba Zbb Zbc Zbs Vector (vlen: 256) PageSize:4096 Running on Unknown CPU with 8 cores
