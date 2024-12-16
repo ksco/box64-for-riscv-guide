@@ -21,7 +21,7 @@ After installation, run the following command in the terminal:
 box64 -v
 ```
 
-If you see the similar output, the installation was successful:
+If you see similar output, the installation was successful:
 
 ```shell
 Dynarec for RISC-V With extension: I M A F D C Zba Zbb Zbc Zbs Vector (vlen: 256) PageSize:4096 Running on Unknown CPU with 8 cores
