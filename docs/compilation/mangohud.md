@@ -20,6 +20,11 @@ sudo pacman -Syu
 sudo pacman -S base-devel gcc meson ninja glslang libglvnd mesa libx11 wayland xcb-util libxkbcommon python-mako python-pip dbus appstream
 ```
 
+```shell
+sudo apt update
+sudo apt install -y gcc g++ glslang-tools meson ninja-build  libglvnd-dev mesa-common-dev libx11-dev libxkbcommon-dev libxnvctrl-dev libdbus-1-dev libwayland-dev python3-mako python3-pip
+```
+
 Verify if MangoHud has been installed correctly:
 
 ```shell
