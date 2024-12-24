@@ -10,7 +10,7 @@ sidebar_position: 1
 - An HDMI monitor (1920x1080 recommended).
 - A keyboard and mouse.
 - Network access to GitHub and the official repository at https://archive.spacemit.com/.
-- A legally obtained Celeste installation package from official sources (https://www.celestegame.com/).
+- An official Celeste installation package from (https://www.celestegame.com/).
 
 ```shell
 ➜  ~ neofetch
@@ -34,11 +34,9 @@ sidebar_position: 1
 Follow the steps at [Install Box64](/docs/box64).
 
 ## Download and Launch Celeste from Official Sources
-Use the shell to start the game. If you want to launch it by double-clicking, run it once via the shell:
+You can launch Celeste directly by double-clicking the executable, or run it via the shell if you prefer:
 
 ```shell
 cd Game/Celeste
 box64 ./Celeste.bin.x86_64
 ```
-
-The first launch may take a few minutes.
