@@ -31,7 +31,7 @@ sidebar_position: 1
 ```
 
 ## Install Box64
-Follow the steps at [Box64 Installation Guide](../../../compilation/box64.md).
+Follow the steps at [Install Box64](/docs/box64).
 
 ## Download and Launch Celeste from Official Sources
 Use the shell to start the game. If you want to launch it by double-clicking, run it once via the shell:

@@ -14,7 +14,7 @@ Before you begin, ensure you have the following:
 - Internet connection for downloading dependencies
 
 ## Install Box64
-Follow the steps at [Box64 Installation Guide](../../../compilation/box64.md).
+Follow the steps at [Install Box64](/docs/box64).
 
 ## Troubleshooting
 
