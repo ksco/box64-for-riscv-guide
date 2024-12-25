@@ -40,3 +40,7 @@ You can launch Celeste directly by double-clicking the executable, or run it via
 cd Game/Celeste
 box64 ./Celeste.bin.x86_64
 ```
+
+![Game operation effect](./img/Celeste-1.jpg)
+
+![Game operation effect](./img/Celeste-2.jpg)
