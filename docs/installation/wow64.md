@@ -1,5 +1,6 @@
 ---
 sidebar_position: 5
+slug: /wow64
 ---
 
 # Download WOW64
@@ -15,11 +16,11 @@ wget https://github.com/Kron4ek/Wine-Builds/releases/download/9.22/wine-9.22-amd
 Extract:
 
 ```shell
-tar -xf wine-10.0-rc2-amd64-wow64.tar.xz
+tar -xf wine-9.22-amd64-wow64.tar.xz
 ```
 
 Usage:
 
 ```shell
-box64 ./wine-10.0-rc2-amd64-wow64/bin/wine [Windows executable]
+box64 ./wine-9.22-amd64-wow64.tar.xz/bin/wine [Windows executable]
 ```

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+slug: /celeste
 ---
 
 # Celeste on Milk-V Jupiter [Linux] – Quick Start
