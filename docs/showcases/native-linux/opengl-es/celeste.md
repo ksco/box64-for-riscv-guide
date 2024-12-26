@@ -40,8 +40,22 @@ You can launch Celeste directly by double-clicking the executable, or run it via
 ```shell
 cd Game/Celeste
 box64 ./Celeste.bin.x86_64
+# or
+./Celeste.bin.x86_64 # binfmt will automatically invoke Box64
 ```
 
-![Game operation effect](./img/Celeste-1.jpg)
+[Read more: Why does binfmt automatically invoke Box64? »](/docs/faq#why-does-binfmt-automatically-invoke-box64)
 
-![Game operation effect](./img/Celeste-2.jpg)
+## Monitor Game Performance with MangoHud
+
+### Install MangoHud
+
+Follow the steps at [Install Mangohud](/docs/mangohud).
+
+### Using MangoHud
+
+```shell
+mangohud --dlsym ./Celeste.bin.x86_64
+```
+
+![Game operation effect](./img/Celeste.png)
