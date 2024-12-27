@@ -46,7 +46,7 @@ sidebar_position: 1
 
 🎮 **Game Compatibility**: Check which games can run on RISC-V by referring to the [Game Compatibility](/docs/category/game-compatibility) section.
 
-🛠️ **Application Compatibility**: Check which applications can run on RISC-V by referring to the [Application Compatibility](/docs/application-compatibility) section.
+<!-- 🛠️ **Application Compatibility**: Check which applications can run on RISC-V by referring to the [Application Compatibility](/docs/application-compatibility) section. -->
 
 📊 **Performance Benchmarks**: Understand Box64's performance by referring to the [Benchmark](/docs/benchmark) section.
 
