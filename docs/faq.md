@@ -8,6 +8,7 @@ slug: /faq
 ## What is Box64?
 
 [Box64 Official Website](https://box86.org/)
+
 [Box64 GitHub](https://github.com/ptitSeb/box64)
 
 Box64 is an open-source dynamic binary translator that allows running x86_64 programs on RISC-V systems. It translates x86_64 instructions into RISC-V instructions in real-time, enabling you to run software that was originally designed for the x86_64 platform on RISC-V hardware.

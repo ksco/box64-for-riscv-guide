@@ -14,7 +14,7 @@ sidebar_position: 1
 
 🌐 **Open Source**: Box64 is an open-source project, continually improved and updated by community contributions and support.
 
-[Read more: What is box64? »](/docs/faq#what-is-box64)
+[Read more: What is Box64? »](/docs/faq#what-is-Box64)
 
 ## Quick Start ⏱️
 

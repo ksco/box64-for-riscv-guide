@@ -5,7 +5,7 @@ slug: /box64
 
 # Install Box64
 
-[Read more: What is box64? »](/docs/faq#what-is-box64)
+[Read more: What is Box64? »](/docs/faq#what-is-Box64)
 
 You can find the general steps for compiling and installing on RV64 systems in the official [Box64 compile/install documentation](https://github.com/ptitSeb/box64/blob/main/docs/COMPILE.md):
 
