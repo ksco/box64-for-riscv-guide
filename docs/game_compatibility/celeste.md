@@ -45,15 +45,17 @@ DONE LOADING (in 41170ms)
   at Celeste.LevelLoader.LoadingThread () [0x001f4] in <d7b2abb405ec4c97954549f0a02e4a41>:0 
 ```
 
-### Way of running
+### Rendering methods
 
 ```shell
 OpenGL ES
 ```
 
+[Read more: What is OpenGL ES? »](/docs/faq#what-is-opengl-es)
+
 ### Extra information
 
-[游戏官网](https://www.celestegame.com/)
+[Official Game Website](https://www.celestegame.com/)
 
 [Steam](https://store.steampowered.com/app/504230/Celeste/)
 
