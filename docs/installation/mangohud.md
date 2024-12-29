@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+slug: /mangohud
 ---
 
 # Install MangoHud
@@ -36,3 +37,17 @@ For OpenGL programs, add `--dlsym`:
 ```
 mangohud --dlsym app
 ```
+## Update MangoHud
+
+1. **Get the latest code**:
+   ```shell
+   cd MangoHud
+   git pull origin master
+   ```
+
+2. **Recompile and install**:
+   ```shell
+   meson setup build --prefix /usr
+   ninja -C build
+   sudo ninja -C build install
+   ```
