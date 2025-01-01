@@ -28,7 +28,7 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           editUrl:
-            'https://github.com/ksco/box64-for-riscv-guide',
+            'https://github.com/ksco/box64-for-riscv-guide/blob/main/',
         },
         blog: false,
         theme: {

@@ -36,17 +36,18 @@ Will use hardware counter measured at 24.0 MHz emulating 3.0 GHz
 Params database has 97 entries
 Box64 with Dynarec v0.3.3 7e5aa3e7 built on Dec 12 2024 22:01:08
 ```
+
 [Read more: What does the output of `box64 -v` mean? »](/docs/faq#what-does-the-output-of-box64--v-mean)
 
 ## Update Box64
 
-1. **Get the latest code**:
+1. Get the latest code:
    ```shell
    cd box64
    git pull origin main
    ```
 
-2. **Recompile and install**:
+2. Recompile and install:
    ```shell
    mkdir -p build
    cd build

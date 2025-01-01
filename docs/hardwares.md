@@ -5,20 +5,22 @@ slug: /hardwares
 
 # Hardwares
 
-## Milk-V-M1--Jupiter
+## Milk-V Jupiter (SoC: SpacemiT M1)
 
 ```shell
-OS: Bianbu 2.0.4
-Kernel: 6.6.36
-Shell: zsh 5.9
-Resolution: 1920×1080
-DE: GNOME 46.0
-WM: Mutter
-WM Theme: Flat-Remix-Green-Light-fullPanel
-Theme: Flat-Remix-GTK-Dark-Solid [GTK2/3]
-Icons: Flat-Remix-Green-Dark [GTK2/3]
-Terminal: gnome-terminal
-CPU: Spacemit X60 (8) @ 1.600GHz
-Memory: 15886MiB
+       #####             Milk-V-M1--Jupiter
+      #######            -----------------------
+      ##O#O##            OS: Bianbu 2.0.4 riscv64
+      #######            Host: Milk-V(M1) Jupiter
+    ###########          Kernel: 6.6.36
+   #############         Uptime: 35 mins
+  ###############        Packages: 2202 (dpkg)
+  ################       Shell: zsh 5.9
+ #################       Resolution: 1536x864
+###################      Theme: Flat-Remix-GTK-Light-Solid [GTK3]
+###################      Icons: Flat-Remix-Green-Dark [GTK3]
+ #################       Terminal: /dev/pts/1
+                         CPU: Spacemit X60 (8) @ 1.600GHz
+                         Memory: 1040MiB / 15886MiB
 ```
 

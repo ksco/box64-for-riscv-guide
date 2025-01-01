@@ -5,7 +5,7 @@ slug: /mangohud
 
 # Install MangoHud
 
-The official [README.md](https://github.com/flightlessmango/MangoHud?tab=readme-ov-file#installation---build-from-source) provides general steps for Installation - Build From Source:
+The official [README.md](https://github.com/flightlessmango/MangoHud?tab=readme-ov-file#installation---build-from-source) provides general steps in section **Installation - Build From Source**:
 
 ```shell
 git clone --recurse-submodules https://github.com/flightlessmango/MangoHud.git
@@ -15,11 +15,6 @@ sudo ninja -C build install
 ```
 
 It is recommended to install all build dependencies beforehand:
-
-```shell
-sudo pacman -Syu
-sudo pacman -S base-devel gcc meson ninja glslang libglvnd mesa libx11 wayland xcb-util libxkbcommon python-mako python-pip dbus appstream
-```
 
 ```shell
 sudo apt update
@@ -37,15 +32,16 @@ For OpenGL programs, add `--dlsym`:
 ```
 mangohud --dlsym app
 ```
+
 ## Update MangoHud
 
-1. **Get the latest code**:
+1. Get the latest code:
    ```shell
    cd MangoHud
    git pull origin master
    ```
 
-2. **Recompile and install**:
+2. Recompile and install:
    ```shell
    meson setup build --prefix /usr
    ninja -C build

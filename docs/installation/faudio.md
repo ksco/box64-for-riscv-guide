@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 slug: /faudio
 ---
 
@@ -20,13 +20,13 @@ sudo make install
 
 ## Update FAudio
 
-1. **Get the latest code**:
+1. Get the latest code:
    ```shell
    cd FAudio
    git pull origin main
    ```
 
-2. **Recompile and install**:
+2. Recompile and install:
    ```shell
    mkdir -p build
    cd build

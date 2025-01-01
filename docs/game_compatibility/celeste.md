@@ -4,15 +4,15 @@
 
 ### Tested on
 
-[Milk-V-M1--Jupiter](/docs/hardwares#milk-v-m1--jupiter)
+[Milk-V Jupiter](/docs/hardwares#milk-v-jupiter-soc-spacemit-m1)
 
 ### Box64 version (commit)
 
-Box64 [ptitSeb/box64@91a8fef1](https://github.com/ptitSeb/box64/commit/91a8fef1bba2b5e398efcfab6c94ba757b34c32c)
+Box64 [ptitSeb/box64@91a8fef1](https://github.com/ptitSeb/box64/tree/91a8fef1bba2b5e398efcfab6c94ba757b34c32c)
 
 ### Game screenshot
 
-![Game operation effect](./img/Celeste.png)
+![screenshot](./img/Celeste.png)
 
 ### Game running log
 
@@ -42,7 +42,7 @@ GAME DISPLAYED (in 14386ms)
  - LEVELS LOAD: 11614ms
 DONE LOADING (in 41170ms)
 [ERROR] FATAL UNHANDLED EXCEPTION: System.NullReferenceException: Object reference not set to an instance of an object
-  at Celeste.LevelLoader.LoadingThread () [0x001f4] in <d7b2abb405ec4c97954549f0a02e4a41>:0 
+  at Celeste.LevelLoader.LoadingThread () [0x001f4] in <d7b2abb405ec4c97954549f0a02e4a41>:0
 ```
 
 ### Rendering methods
@@ -62,3 +62,5 @@ OpenGL ES
 [PCGameWiki](https://www.pcgamingwiki.com/wiki/Celeste)
 
 ### Advanced Tips
+
+> TBD

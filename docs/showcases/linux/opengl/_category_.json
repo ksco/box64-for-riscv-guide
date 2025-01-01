@@ -1,6 +1,6 @@
 {
-    "label": "Native Linux",
-    "position": 1,
+    "label": "OpenGL Games",
+    "position": 3,
     "link": {
       "type": "generated-index"
     }
