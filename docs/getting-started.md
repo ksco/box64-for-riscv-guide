@@ -33,6 +33,8 @@ If you are unfamiliar with these projects, here are some recommended projects fo
 
 [Celeste on Milk-V Jupiter »](/docs/celeste)
 
+[Baba Is You on Lichee Pi 4A »](/docs/babaisyou)
+
 ## Installation and Configuration Guides
 
 **Install Box64**: Refer to the [Install Box64](/docs/box64) section to learn how to install Box64 on your RISC-V system.
