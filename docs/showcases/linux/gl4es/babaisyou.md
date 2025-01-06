@@ -27,4 +27,4 @@ box64 ./run.sh
 
 [Read more: Why does binfmt automatically invoke Box64? »](/docs/faq#why-does-binfmt-automatically-invoke-box64)
 
-![Game operation effect](./img/BaBaIsYou.png)
+![Game operation effect](./img/BabaIsYou.png)
