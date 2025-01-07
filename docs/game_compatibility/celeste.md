@@ -8,7 +8,7 @@
 
 ### Box64 version (commit)
 
-Box64 [ptitSeb/box64@91a8fef1](https://github.com/ptitSeb/box64/tree/91a8fef1bba2b5e398efcfab6c94ba757b34c32c)
+Box64 [ptitSeb/box64@91a8fef1](https://github.com/ptitSeb/box64/tree/91a8fef1)
 
 ### Game screenshot
 
