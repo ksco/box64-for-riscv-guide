@@ -2,7 +2,9 @@
 sidebar_position: 1
 ---
 
-# Tested Box64's `7z b` Performance on [Lichee Pi 4A (SoC: TH1520)](/docs/hardwares#lichee-pi-4a-soc-th1520)
+# `7z b` on Lichee Pi 4A
+
+Hardware: [Lichee Pi 4A](/docs/hardwares#lichee-pi-4a-soc-th1520)
 
 ```mermaid
 xychart-beta
@@ -11,10 +13,10 @@ xychart-beta
     y-axis "MIPS" 0 --> 6000
     bar [5197, 2356, 2399, 3305]
     line [5197, 5197, 5197, 5197]
-
 ```
 
 ## Running Log
+
 ### Native
 ```shell
 debian@revyos-lpi4a:~$ ./7za_risc-v b
@@ -215,5 +217,3 @@ Dict     Speed Usage    R/U Rating  |      Speed Usage    R/U Rating
 Avr:      1405   235    630   1479  |      58896   396   1296   5131
 Tot:             315    963   3305
 ```
-
-> TBD
