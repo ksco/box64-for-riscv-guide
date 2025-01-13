@@ -51,7 +51,7 @@ If you are unfamiliar with these projects, here are some recommended projects fo
 
 **Game Compatibility**: Check which games can run on RISC-V by referring to the [Game Compatibility](/docs/category/game-compatibility) section.
 
-**Performance Benchmarks**: Understand Box64's performance by referring to the [Benchmark](/docs/benchmark) section.
+**Performance Benchmarks**: Understand Box64's performance by referring to the [Benchmark](/docs/category/benchmark) section.
 
 **Advanced Tips**: Get more advanced tips for using Box64 by referring to the [Box64 Advanced Tips](/docs/box64-advanced-tips) section.
 
