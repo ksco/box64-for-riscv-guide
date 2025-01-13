@@ -1,16 +1,13 @@
 ---
-sidebar_position: 6
-slug: /benchmark
+sidebar_position: 1
 ---
 
-# Benchmark
-
-## Tested Box64's `7z b` Performance on [Lichee Pi 4A (SoC: TH1520)](/docs/hardwares#lichee-pi-4a-soc-th1520)
+# Tested Box64's `7z b` Performance on [Lichee Pi 4A (SoC: TH1520)](/docs/hardwares#lichee-pi-4a-soc-th1520)
 
 ```mermaid
 xychart-beta
     title "7-Zip (a) 24.09 Benchmark on Lichee Pi 4A (SoC: TH1520)"
-    x-axis [RISC-V64_Native, Box64-v0.2.8_8545d050, Box64-v0.3.0_62695cee, Box64-v0.3.3_207073bf]
+    x-axis [Native, Box64-v0.2.8_8545d050, Box64-v0.3.0_62695cee, Box64-v0.3.3_207073bf]
     y-axis "MIPS" 0 --> 6000
     bar [5197, 2356, 2399, 3305]
     line [5197, 5197, 5197, 5197]
@@ -18,7 +15,7 @@ xychart-beta
 ```
 
 ## Running Log
-### RISC-V64_Native
+### Native
 ```shell
 debian@revyos-lpi4a:~$ ./7za_risc-v b
 
