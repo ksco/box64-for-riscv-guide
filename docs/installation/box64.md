@@ -72,7 +72,7 @@ According to [Box64 cross-compiling document](https://github.com/ptitSeb/box64/b
    This is free software; see the source for copying conditions.  There is NO
    warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
    ```
-   
+
 2. Cross-compile:
    ```shell
    cmake .. -D RV64=1 -D CMAKE_BUILD_TYPE=RelWithDebInfo -D CMAKE_C_COMPILER=riscv64-linux-gnu-gcc
@@ -81,7 +81,9 @@ According to [Box64 cross-compiling document](https://github.com/ptitSeb/box64/b
    
    Check the target file with `file box64`, you can find it is a `ELF 64-bit LSB executable, UCB RISC-V, RVC ...`, which means it is for RV64 platform.
 
-3. Install:
+[Read more: What do the arguments for CMake do?»](/docs/faq#what-do-the-arguments-for-cmake-do)
+
+1. Install:
    
    Instead of `make install`, you need to copy the executable and Box64’s shared libraries manually to your RISC-V device with tools like `scp`. For example:
    ```shell

@@ -97,3 +97,16 @@ PATH is an environment variable that tells the operating system where to look fo
 ### Why add content to PATH?
 
 Sometimes, the software you install is not in the default executable file directories. To conveniently use these software, you can add their paths to PATH, allowing you to run them from anywhere without specifying the full path.
+
+## What do the arguments for CMake do?
+
+1. -D RV64=1
+   This defines an option named RV64 and sets its value to 1, typically used to enable features related to the RISC-V 64-bit architecture.
+
+2. -D CMAKE_BUILD_TYPE=RelWithDebInfo
+   This sets the build type to RelWithDebInfo, meaning the generated code will be optimized while retaining debugging information for easier troubleshooting.
+
+3. -D CMAKE_C_COMPILER=riscv64-linux-gnu-gcc
+   This specifies the C compiler to be used as riscv64-linux-gnu-gcc, the RISC-V cross-compiler, which is necessary for cross-compiling.
+
+These parameters collectively configure CMake to cross-compile for the RISC-V 64-bit architecture, producing an executable that is both optimized and includes debugging information, facilitating effective development and debugging.
