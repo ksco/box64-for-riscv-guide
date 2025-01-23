@@ -164,8 +164,6 @@ debian@revyos-lpi4a:~/Games/PlantsVsZombies$ wine PlantsVsZombies.exe
 Software Renderer
 ```
 
-[Read more: What is OpenGL? »](/docs/faq#what-is-opengl)
-
 ### Extra information
 
 [Official Game Website](https://www.ea.com/zh-cn/games/plants-vs-zombies/plants-vs-zombies)
