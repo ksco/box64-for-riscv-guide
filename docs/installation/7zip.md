@@ -32,5 +32,5 @@ Compile
 ```shell
 make -f makefile.gcc
 cd ~
-cp ./7z2409-src/CPP/7zip/Bundles/Alone/_o/7za /usr/local/bin/7z
+sudo cp ./7z2409-src/CPP/7zip/Bundles/Alone/_o/7za /usr/local/bin/7z
 ```
