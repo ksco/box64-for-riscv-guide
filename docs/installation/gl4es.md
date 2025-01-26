@@ -20,11 +20,21 @@ make -j$(nproc)
 
 After compilation, the following file will be available in the project directory: `gl4es/lib/libGL.so.1`
 
-Usage:
+Temporarily add gl4es to PATH:
 
-```
+```shell
 export LD_LIBRARY_PATH=/path/to/gl4es/lib:$LD_LIBRARY_PATH
 ```
+
+Permanently add gl4es to PATH:
+
+```shell
+vim ~/.bashrc
+export LD_LIBRARY_PATH=/path/to/gl4es/lib:$LD_LIBRARY_PATH
+source ~/.bashrc
+```
+
+[Read more: What is PATH and how to add content to PATH? »](/docs/faq#what-is-path)
 
 ## Update gl4es
 
