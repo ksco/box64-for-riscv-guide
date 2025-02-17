@@ -39,4 +39,10 @@ export PATH="$HOME/wine-10.0-amd64-wow64/bin:$PATH"
 source ~/.bashrc
 ```
 
+Configure Wine environment and install wine-mono
+
+```shell
+winecfg
+```
+
 [Read more: What is PATH and how to add content to PATH? »](/docs/faq#what-is-path)
