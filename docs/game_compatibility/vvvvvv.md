@@ -145,8 +145,10 @@ data/music/predestinedfatefinallevel.ogg unpacked
 ### Rendering methods
 
 ```shell
-Software Renderer
+OpenGL ES
 ```
+
+[Read more: What is OpenGL ES? »](/docs/faq#what-is-opengl-es)
 
 ### Extra information
 
