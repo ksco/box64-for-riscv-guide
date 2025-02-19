@@ -17,7 +17,7 @@ Box64 [ptitSeb/box64@26dd597a](https://github.com/ptitSeb/box64/tree/26dd597a)
 ### Application running log
 
 ```shell
-debian@revyos-lpi4a:~/.wine/drive_c/Program Files (x86)/Flash Player$ wine flashplayer_sa.exe 
+debian@revyos-lpi4a:~/Games$ wine Gold\ Miner.swf
 [BOX64] Dynarec for rv64g_xtheadba_xtheadbb_xtheadbs_xtheadmempair_xtheadcondmov_xtheadmemidx_xthvector
 [BOX64] Running on unknown riscv64 cpu with 4 cores, pagesize: 4096
 [BOX64] Will use hardware counter measured at 3.0 MHz emulating 3.0 GHz
@@ -27,14 +27,14 @@ debian@revyos-lpi4a:~/.wine/drive_c/Program Files (x86)/Flash Player$ wine flash
 [BOX64] WINE prereserve of 0x10000:0x8000 done
 [BOX64] WINE prereserve of 0x110000:0x30000000 done
 [BOX64] WINE prereserve of 0x7f000000:0x3000000 done
-[BOX64] Detected running wine with "flashplayer_sa.exe"
+[BOX64] Detected running wine with "Gold Miner.swf"
 [BOX64] Counted 37 Env var
 [BOX64] BOX64 LIB PATH: 
 [BOX64] BOX64 BIN PATH: ./:bin/:/home/debian/wine-10.0-amd64-wow64/bin/:/usr/local/bin/:/usr/bin/:/bin/:/usr/local/games/:/usr/games/
 [BOX64] Looking for /home/debian/wine-10.0-amd64-wow64/bin/wine
 [BOX64] BOX64ENV: Variables overridden via env and/or RC file:
 	BOX64_MAXCPU=64
-[BOX64] argv[1]="flashplayer_sa.exe"
+[BOX64] argv[1]="Gold Miner.swf"
 [BOX64] Rename process to "wine"
 [BOX64] Using native(wrapped) libdl.so.2
 [BOX64] Using native(wrapped) libpthread.so.0
@@ -54,14 +54,14 @@ debian@revyos-lpi4a:~/.wine/drive_c/Program Files (x86)/Flash Player$ wine flash
 [BOX64] WINE prereserve of 0x10000:0x8000 done
 [BOX64] WINE prereserve of 0x110000:0x30000000 done
 [BOX64] WINE prereserve of 0x7f000000:0x3000000 done
-[BOX64] Detected running wine with "flashplayer_sa.exe"
+[BOX64] Detected running wine with "Gold Miner.swf"
 [BOX64] Counted 40 Env var
 [BOX64] BOX64 LIB PATH: 
 [BOX64] BOX64 BIN PATH: ./:bin/:/home/debian/wine-10.0-amd64-wow64/bin/:/usr/local/bin/:/usr/bin/:/bin/:/usr/local/games/:/usr/games/
 [BOX64] Looking for /home/debian/wine-10.0-amd64-wow64/bin/wine
 [BOX64] BOX64ENV: Variables overridden via env and/or RC file:
 	BOX64_MAXCPU=64
-[BOX64] argv[1]="flashplayer_sa.exe"
+[BOX64] argv[1]="Gold Miner.swf"
 [BOX64] Rename process to "wine"
 [BOX64] Using native(wrapped) libdl.so.2
 [BOX64] Using native(wrapped) libpthread.so.0
@@ -72,8 +72,8 @@ debian@revyos-lpi4a:~/.wine/drive_c/Program Files (x86)/Flash Player$ wine flash
 [BOX64] Using native(wrapped) libbsd.so.0
 [BOX64] Using emulated /home/debian/wine-10.0-amd64-wow64/bin/../lib/wine/x86_64-unix/ntdll.so
 [BOX64] Using emulated /usr/lib/box64-x86_64-linux-gnu/libgcc_s.so.1
-[BOX64] posix_spawn(0x3fbe552d9c, "/home/debian/wine-10.0-amd64-wow64/bin/wineserver", (nil), (nil), 0x3fbe552da0["/home/debian/wine-10.0-amd64-wow64/bin/wineserver", "", ...], 0x3fbe553158), IsX64=1, IsX86=0 IsScript=0 envp is context->envv
-[BOX64]  => posix_spawn(0x3fbe552d9c, "/usr/local/bin/box64", (nil), (nil), 0x3fec546860 ["/usr/local/bin/box64", "/home/debian/wine-10.0-amd64-wow64/bin/wineserver", ""...:1], 0x3fec547078)
+[BOX64] posix_spawn(0x3f958e8dcc, "/home/debian/wine-10.0-amd64-wow64/bin/wineserver", (nil), (nil), 0x3f958e8dd0["/home/debian/wine-10.0-amd64-wow64/bin/wineserver", "", ...], 0x3f958e9188), IsX64=1, IsX86=0 IsScript=0 envp is context->envv
+[BOX64]  => posix_spawn(0x3f958e8dcc, "/usr/local/bin/box64", (nil), (nil), 0x3fe2ccd890 ["/usr/local/bin/box64", "/home/debian/wine-10.0-amd64-wow64/bin/wineserver", ""...:1], 0x3fe2cce0a8)
 [BOX64] posix_spawn returned 0
 [BOX64] Dynarec for rv64g_xtheadba_xtheadbb_xtheadbs_xtheadmempair_xtheadcondmov_xtheadmemidx_xthvector
 [BOX64] Running on unknown riscv64 cpu with 4 cores, pagesize: 4096
@@ -93,7 +93,41 @@ debian@revyos-lpi4a:~/.wine/drive_c/Program Files (x86)/Flash Player$ wine flash
 [BOX64] Using native(wrapped) librt.so.1
 [BOX64] Using native(wrapped) libbsd.so.0
 002c:err:wineboot:process_run_key Error running cmd L"C:\\windows\\system32\\winemenubuilder.exe -a -r" (2).
-0024:err:environ:init_peb starting L"C:\\Program Files (x86)\\Flash Player\\flashplayer_sa.exe" in experimental wow64 mode
+[BOX64] Using emulated /home/debian/wine-10.0-amd64-wow64/lib/wine/x86_64-unix/win32u.so
+[BOX64] Using native(wrapped) libm.so.6
+[BOX64] Using native(wrapped) libfreetype.so.6
+[BOX64] Using native(wrapped) libfontconfig.so.1
+[BOX64] Using native(wrapped) libexpat.so.1
+[BOX64] Dynarec for rv64g_xtheadba_xtheadbb_xtheadbs_xtheadmempair_xtheadcondmov_xtheadmemidx_xthvector
+[BOX64] Running on unknown riscv64 cpu with 4 cores, pagesize: 4096
+[BOX64] Will use hardware counter measured at 3.0 MHz emulating 3.0 GHz
+[BOX64] Box64 with Dynarec v0.3.3 26dd597a built on Feb 17 2025 21:29:41
+[BOX64] Wine64 detected, WINEPRELOADRESERVE="000400000-000f20000"
+[BOX64] Didn't detect 48bits of address space, considering it's 39bits
+[BOX64] WINE prereserve of 0x10000:0x8000 done
+[BOX64] WINE prereserve of 0x110000:0x30000000 done
+[BOX64] WINE prereserve of 0x7f000000:0x3000000 done
+[BOX64] Detected running wine with "flashplayer_sa.exe"
+[BOX64] Counted 42 Env var
+[BOX64] BOX64 LIB PATH: 
+[BOX64] BOX64 BIN PATH: ./:bin/:/home/debian/wine-10.0-amd64-wow64/bin/:/usr/local/bin/:/usr/bin/:/bin/:/usr/local/games/:/usr/games/
+[BOX64] Looking for /home/debian/wine-10.0-amd64-wow64/bin/wine
+[BOX64] BOX64ENV: Variables overridden via env and/or RC file:
+	BOX64_MAXCPU=64
+[BOX64] argv[1]="C:\Program Files (x86)\Flash Player\flashplayer_sa.exe"
+[BOX64] argv[2]="Z:\home\debian\Games\Gold"
+[BOX64] argv[3]="Miner.swf"
+[BOX64] Rename process to "wine"
+[BOX64] Using native(wrapped) libdl.so.2
+[BOX64] Using native(wrapped) libpthread.so.0
+[BOX64] Using native(wrapped) libc.so.6
+[BOX64] Using native(wrapped) ld-linux-x86-64.so.2
+[BOX64] Using native(wrapped) libutil.so.1
+[BOX64] Using native(wrapped) librt.so.1
+[BOX64] Using native(wrapped) libbsd.so.0
+[BOX64] Using emulated /home/debian/wine-10.0-amd64-wow64/bin/../lib/wine/x86_64-unix/ntdll.so
+[BOX64] Using emulated /usr/lib/box64-x86_64-linux-gnu/libgcc_s.so.1
+00e4:err:environ:init_peb starting L"C:\\Program Files (x86)\\Flash Player\\flashplayer_sa.exe" in experimental wow64 mode
 [BOX64] Using emulated /home/debian/wine-10.0-amd64-wow64/lib/wine/x86_64-unix/win32u.so
 [BOX64] Using native(wrapped) libm.so.6
 [BOX64] Using native(wrapped) libfreetype.so.6
@@ -123,9 +157,9 @@ debian@revyos-lpi4a:~/.wine/drive_c/Program Files (x86)/Flash Player$ wine flash
 [BOX64] Using emulated /home/debian/wine-10.0-amd64-wow64/lib/wine/x86_64-unix/ws2_32.so
 [BOX64] Using emulated /home/debian/wine-10.0-amd64-wow64/lib/wine/x86_64-unix/netapi32.so
 [BOX64] Using emulated /home/debian/wine-10.0-amd64-wow64/lib/wine/x86_64-unix/msv1_0.so
-[BOX64] posix_spawnp(0x10050f944, "ntlm_auth", 0x10050f720, (nil), 0x10050f7a0, 0x3fbe553158), IsX86=0 / fullpath="ntlm_auth"
-0024:err:winediag:ntlm_check_version ntlm_auth was not found. Make sure that ntlm_auth >= 3.0.25 is in your path. Usually, you can find it in the winbind package of your distribution.
-0024:err:ntlm:ntlm_LsaApInitializePackage no NTLM support, expect problems
+[BOX64] posix_spawnp(0x10050f944, "ntlm_auth", 0x10050f720, (nil), 0x10050f7a0, 0x3f957d90f8), IsX86=0 / fullpath="ntlm_auth"
+00e4:err:winediag:ntlm_check_version ntlm_auth was not found. Make sure that ntlm_auth >= 3.0.25 is in your path. Usually, you can find it in the winbind package of your distribution.
+00e4:err:ntlm:ntlm_LsaApInitializePackage no NTLM support, expect problems
 [BOX64] Using emulated /home/debian/wine-10.0-amd64-wow64/lib/wine/x86_64-unix/dnsapi.so
 [BOX64] Using emulated /home/debian/wine-10.0-amd64-wow64/lib/wine/x86_64-unix/ws2_32.so
 [BOX64] Using emulated /home/debian/wine-10.0-amd64-wow64/lib/wine/x86_64-unix/netapi32.so
@@ -137,13 +171,23 @@ debian@revyos-lpi4a:~/.wine/drive_c/Program Files (x86)/Flash Player$ wine flash
 [BOX64] Using native(wrapped) libpulse.so.0
 [BOX64] Using emulated /home/debian/wine-10.0-amd64-wow64/lib/wine/x86_64-unix/winealsa.so
 [BOX64] Using native(wrapped) libasound.so.2
+00e4:fixme:sync:SetWaitableTimerEx (000000F4, 0021DD6C, 0, 00000000, 00000000, 00000000, 0) semi-stub
 [BOX64] Using emulated /home/debian/wine-10.0-amd64-wow64/lib/wine/x86_64-unix/opengl32.so
 [BOX64] Using native(wrapped) libvulkan.so.1
 [BOX64] Using native(wrapped) libGL.so.1
-0024:err:d3d:wined3d_caps_gl_ctx_create Failed to find a suitable pixel format.
-0024:err:d3d:wined3d_adapter_gl_init Failed to get a GL context for adapter 01C5DF98.
-0024:fixme:sync:SetWaitableTimerEx (000000F8, 0021D074, 0, 00000000, 00000000, 00000000, 50) semi-stub
-0024:fixme:ver:GetCurrentPackageId (0021FEA4 00000000): stub
+00e4:err:d3d:wined3d_caps_gl_ctx_create Failed to find a suitable pixel format.
+00e4:err:d3d:wined3d_adapter_gl_init Failed to get a GL context for adapter 01611D38.
+00e4:fixme:mmdevapi:control_RegisterAudioSessionNotification (01631280)->(042162F0) - stub
+00e4:fixme:mmdevapi:control_UnregisterAudioSessionNotification (01631280)->(042162F0) - stub
+00e4:fixme:mmdevapi:control_RegisterAudioSessionNotification (016312C0)->(042162F0) - stub
+0148:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Audio",04A2FE88): stub
+0148:fixme:mmdevapi:control_UnregisterAudioSessionNotification (016312C0)->(042162F0) - stub
+0148:fixme:avrt:AvRevertMmThreadCharacteristics (12345678): stub
+00e4:err:d3d:wined3d_caps_gl_ctx_create Failed to find a suitable pixel format.
+00e4:err:d3d:wined3d_adapter_gl_init Failed to get a GL context for adapter 016410A0.
+00e4:err:d3d:wined3d_caps_gl_ctx_create Failed to find a suitable pixel format.
+00e4:err:d3d:wined3d_adapter_gl_init Failed to get a GL context for adapter 016410A0.
+00e4:fixme:ver:GetCurrentPackageId (0021FEA4 00000000): stub
 ```
 
 ### Rendering methods
@@ -162,4 +206,6 @@ OpenGL ES
 
 ### Advanced Tips
 
+> There are some rendering errors
+> 
 > Non-English languages may have missing fonts
