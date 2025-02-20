@@ -22,7 +22,7 @@ tar -xf wine-10.0-amd64-wow64.tar.xz
 Usage:
 
 ```shell
-box64 ./wine-10.0-amd64-wow64.tar.xz/bin/wine [Windows executable]
+box64 ./wine-10.0-amd64-wow64/bin/wine [Windows executable]
 ```
 
 Temporarily add Wine WOW64 to PATH:
