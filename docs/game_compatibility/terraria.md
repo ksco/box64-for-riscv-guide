@@ -12,7 +12,7 @@ Box64 [ptitSeb/box64@69f49f79](https://github.com/ptitSeb/box64/tree/69f49f79)
 
 ### Game screenshot
 
-![terraria](D:\Desktop\j104\box64-for-riscv-guide\docs\game_compatibility\img\terraria.png)
+![terraria](./img/terraria.png)
 
 
 ### Game running log
