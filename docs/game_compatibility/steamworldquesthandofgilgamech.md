@@ -843,4 +843,4 @@ OpenGL ES + gl4es
 
 You may need to turn off `Bloom` in the `options - graphics` to avoid some rendering errors.
 
-![screenshot](./img/SteamWorldQuest:HandofGilgamech_2.png)
+![screenshot](./img/SteamWorldQuest_HandofGilgamech_2.png)
