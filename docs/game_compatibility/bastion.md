@@ -4,8 +4,7 @@
 
 ### Tested on
 
-[Milk-V Jupiter](/docs/hardwares#milk-v-jupiter-soc-spacemit-m1)
- with AMD Radeon HD 6750
+[Milk-V Jupiter](/docs/hardwares#milk-v-jupiter-soc-spacemit-m1) with AMD Radeon HD 6750
 
 ### Box64 version (commit)
 
