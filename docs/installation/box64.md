@@ -33,10 +33,7 @@ box64 -v
 If you see similar output, the installation was successful:
 
 ```
-Dynarec for RISC-V With extension: I M A F D C Zba Zbb Zbc Zbs Vector (vlen: 256) PageSize:4096 Running on Unknown CPU with 8 cores
-Will use hardware counter measured at 24.0 MHz emulating 3.0 GHz
-Params database has 97 entries
-Box64 with Dynarec v0.3.3 7e5aa3e7 built on Dec 12 2024 22:01:08
+[BOX64] Box64 with Dynarec v0.3.3 0c0f5263 built on Mar  6 2025 15:23:14
 ```
 
 [Read more: What does the output of `box64 -v` mean? »](/docs/faq#what-does-the-output-of-box64--v-mean)
