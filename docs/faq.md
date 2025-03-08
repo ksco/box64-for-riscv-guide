@@ -25,23 +25,26 @@ Some key features of Box64 include:
 
 Box64 is widely applicable, especially for users and developers who want to run existing x86_64 software on RISC-V hardware.
 
-### What does the output of `box64 -v` mean?
+### What does the output of `box64 /path/to/any mean?
 
 ```shell
-Dynarec for RISC-V With extension: I M A F D C Zba Zbb Zbc Zbs Vector (vlen: 256) PageSize:4096
+[BOX64] Dynarec for rv64g_xtheadba_xtheadbb_xtheadbs_xtheadmempair_xtheadcondmov_xtheadmemidx_xthvector
+[BOX64] Running on unknown riscv64 cpu with 4 cores, pagesize: 4096
+[BOX64] Will use hardware counter measured at 3.0 MHz emulating 3.0 GHz
 ```
 
-- **Dynarec for RISC-V**: Indicates that Box64 is using dynamic binary translation (Dynarec) to run on the RISC-V architecture.
-- **With extension: I M A F D C Zba Zbb Zbc Zbs Vector (vlen: 256)**: Lists the RISC-V CPU supported instruction set extensions, including Integer (I), Multiply/Divide (M), Atomic Operations (A), Floating Point (F), Double Precision Floating Point (D), Compressed Instructions (C), and other extensions (Zba, Zbb, Zbc, Zbs) and Vector extensions with a vector length of 256.
+- **Dynarec for rv64g_xtheadba_xtheadbb_xtheadbs_xtheadmempair_xtheadcondmov_xtheadmemidx_xthvector** : Indicates that Box64 is using dynamic binary translation (Dynarec) to run on a RISC-V architecture with specific extensions. These extensions include `rv64g` (general-purpose 64-bit support) and various `xthead` extensions for advanced features like atomic memory pair operations, conditional moves, memory index operations, and vector extensions.
 - **PageSize:4096**: Indicates that the memory page size is 4096 bytes.
+- **Will use hardware counter measured at 3.0 MHz emulating 3.0 GHz**   
+  This indicates that Box64 will use a hardware counter measured at 3.0 MHz to emulate a 3.0 GHz CPU performance. This is done to simulate higher performance while the actual hardware runs at a lower clock frequency.
 
 ```shell
-Box64 with Dynarec v0.3.3 7e5aa3e7 built on Dec 12 2024 22:01:08
+[BOX64] Box64 with Dynarec v0.3.3 c2d02977 built on Mar  8 2025 14:06:32
 ```
 
 - **Box64 with Dynarec v0.3.3**: Indicates that the Box64 version is 0.3.3 and dynamic binary translation is enabled.
-- **7e5aa3e7**: The current Git commit hash.
-- **built on Dec 12 2024 22:01:08**: Indicates that Box64 was built on December 12, 2024, at 22:01:08.
+- **c2d02977**: The current Git commit hash.
+- **built on Mar  8 2025 14:06:32**: Indicates that Box64 was built on Mar 8, 2025, at 14:06:32.
 
 ## What is gl4es?
 

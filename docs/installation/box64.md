@@ -24,19 +24,22 @@ sudo systemctl restart systemd-binfmt
 
 [Read more: Why does binfmt automatically invoke Box64? »](/docs/faq#why-does-binfmt-automatically-invoke-box64)
 
-After installation, run the following command in the terminal:
+After installation, enter a command like the following in the terminal:
 
 ```shell
-box64 -v
+box64 /path/to/any
 ```
 
 If you see similar output, the installation was successful:
 
-```
-[BOX64] Box64 with Dynarec v0.3.3 0c0f5263 built on Mar  6 2025 15:23:14
+```shell
+[BOX64] Box64 with Dynarec v0.3.3 c2d02977 built on Mar  8 2025 14:06:32
+[BOX64] Dynarec for rv64g_xtheadba_xtheadbb_xtheadbs_xtheadmempair_xtheadcondmov_xtheadmemidx_xthvector
+[BOX64] Running on unknown riscv64 cpu with 4 cores, pagesize: 4096
+[BOX64] Will use hardware counter measured at 3.0 MHz emulating 3.0 GHz
 ```
 
-[Read more: What does the output of `box64 -v` mean? »](/docs/faq#what-does-the-output-of-box64--v-mean)
+[Read more: What does the output of `box64 /path/to/any` mean? »](/docs/faq.md#what does the output of `box64 /path/to/any` mean?)
 
 ## Cross-compiling/Installing for RV64 on x86_64
 
